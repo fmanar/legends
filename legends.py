@@ -4,9 +4,9 @@ This script chooses random legends for a whole squad. Player names can be
 supplied as command line arguments, and legends will be matched to them.
 
 Invocation:
-    python legends.py [PLAYER]...
+    $ python legends.py [PLAYER]...
 
-Example:
+Examples:
     Without arguments the script picks three legends:
 
         $ python legends.py
@@ -29,7 +29,7 @@ import sys
 
 legends = ['Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith',
     'Bangalore', 'Caustic', 'Mirage', 'Octane', 'Wattson',
-    'Crypto', 'Revnant', 'Loba', 'Rampart', 'Horizon']
+    'Crypto', 'Revnant', 'Loba', 'Rampart', 'Horizon', 'Fuse']
 
 if 'Skyler' in sys.argv:
     legends.remove('Crypto')
