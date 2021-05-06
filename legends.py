@@ -27,9 +27,11 @@ Notes:
 import random
 import sys
 
-legends = ['Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith',
-    'Bangalore', 'Caustic', 'Mirage', 'Octane', 'Wattson',
-    'Crypto', 'Revnant', 'Loba', 'Rampart', 'Horizon', 'Fuse']
+legends = [
+    'Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith', 'Bangalore', 
+    'Caustic', 'Mirage', 'Octane', 'Wattson', 'Crypto', 'Revnant', 
+    'Loba', 'Rampart', 'Horizon', 'Fuse', 'Valkyrie',
+    ]
 
 if 'Skyler' in sys.argv:
     legends.remove('Crypto')
