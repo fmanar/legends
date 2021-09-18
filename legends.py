@@ -30,7 +30,7 @@ import sys
 legends = [
     'Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith', 'Bangalore', 
     'Caustic', 'Mirage', 'Octane', 'Wattson', 'Crypto', 'Revnant', 
-    'Loba', 'Rampart', 'Horizon', 'Fuse', 'Valkyrie',
+    'Loba', 'Rampart', 'Horizon', 'Fuse', 'Valkyrie', 'Seer',
     ]
 
 if 'Skyler' in sys.argv:
