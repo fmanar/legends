@@ -11,7 +11,7 @@ Examples:
 
         $ python legends.py
         Random legends! Loba! Horizon! Octane!
-        
+
     With arguments the script picks legends for each player supplied:
 
         $ python legends.py Frodo Sam
@@ -19,22 +19,17 @@ Examples:
         Frodo plays Mirage!
         Sam plays Gibraltar!
 
-Notes:
-    If Skyler is playing, Crypto is removed from the legend pool.
-    
 
 """
 import random
 import sys
 
 legends = [
-    'Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith', 'Bangalore', 
-    'Caustic', 'Mirage', 'Octane', 'Wattson', 'Crypto', 'Revnant', 
+    'Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith', 'Bangalore',
+    'Caustic', 'Mirage', 'Octane', 'Wattson', 'Crypto', 'Revnant',
     'Loba', 'Rampart', 'Horizon', 'Fuse', 'Valkyrie', 'Seer',
+    'Ash', 'Mad Maggie'
     ]
-
-if 'Skyler' in sys.argv:
-    legends.remove('Crypto')
 
 random.shuffle(legends)
 
